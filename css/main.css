@@ -88,12 +88,17 @@ a:focus {
 }
 
 @media print {
+
   h1, h2, h3 {
     color: black;
   }
 
   .nav {
     display: none;
+  }
+
+  .inset-img {
+
   }
 
 }
