@@ -81,3 +81,19 @@ html {
 a:focus {
   outline: 3px solid #000;
 }
+
+.top-link {
+  color: #000;
+  text-decoration: none;
+}
+
+@media print {
+  h1, h2, h3 {
+    color: black;
+  }
+
+  .nav {
+    display: none;
+  }
+
+}
